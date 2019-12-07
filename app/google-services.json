@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "808402957916",
+    "firebase_url": "https://hackaton2-56eb0.firebaseio.com",
+    "project_id": "hackaton2-56eb0",
+    "storage_bucket": "hackaton2-56eb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808402957916:android:cb9d5a870b974335151899",
+        "android_client_info": {
+          "package_name": "hackaton.smartbureaucracy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808402957916-g957j0neotsfc6sfqdnuoh6u63ciasdv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf3TmAwSGXWv2-LgUrIjoFJaxzLYuym5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808402957916-g957j0neotsfc6sfqdnuoh6u63ciasdv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

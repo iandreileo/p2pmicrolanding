@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="startblue">#20BDFF</color>
+    <color name="greenGo">#1abc9c</color>
+    <color name="semiSemi">#25304B</color>
+    <color name="colorSemiBlack">#202C48</color>
+    <color name="colorGoBlack">#0A1634</color>
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SmartBureaucracy</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="mobno">Mobile No.</string>
+    <string name="reg_no">Reg</string>
+    <string name="numele_dvs">Numele dvs.</string>
+    <string name="prenumele_dvs">Prenumele dvs.</string>
+    <string name="data_nasterii">Data nasterii</string>
+    <string name="num_r_de_telefon">Număr de telefon</string>
+    <string name="domiciliu">Domiciliu</string>
+    <string name="serie_buletin">Serie Buletin</string>
+    <string name="loc_nastere">Loc nastere</string>
+    <string name="cnp">CNP</string>
+    <string name="action_gallery">Gallery</string>
+    <string name="permission_request">This app need to access files on your device.</string>
+    <string name="no_text">No text found</string>
+    <string-array name="borrow_months">
+        <item>Choose a month</item>
+        <item>1</item>
+        <item>3</item>
+        <item>6</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="Risk_factor">
+        <item>Min credit score</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

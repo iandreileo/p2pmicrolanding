@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Security">
+
+    <ImageView
+        android:id="@+id/icprotection"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:elevation="9dp"
+        android:src="@drawable/icprotection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Verificare"
+        android:textColor="#FFF"
+        android:textSize="26sp"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textLight"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:lineSpacingExtra="6dp"
+        android:text="Introdu codul tău de verificare."
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textMedium" />
+
+    <EditText
+        android:id="@+id/scOne"
+        android:layout_width="65dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/bgedt"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColor="#0A1634"
+        android:textSize="46sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textLight" />
+
+    <EditText
+        android:id="@+id/scTwo"
+        android:layout_width="65dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bgedt"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColor="#0A1634"
+        android:textSize="46sp"
+        app:layout_constraintEnd_toStartOf="@+id/scThree"
+        app:layout_constraintStart_toEndOf="@+id/scOne"
+        app:layout_constraintTop_toBottomOf="@+id/textLight" />
+
+    <EditText
+        android:id="@+id/scThree"
+        android:layout_width="65dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/bgedt"
+        android:focusable="true"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColor="#0A1634"
+        android:textSize="46sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textLight" />
+
+
+    <Button
+        android:id="@+id/btnPhone"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="140dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/bgbtnphone"
+        android:text="Verifica"
+        android:onClick="verifica"
+        android:textAllCaps="false"
+        android:textColor="#535B6F"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnVerify"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/bgbtnverify"
+        android:onClick="continua"
+        android:text="Continuă"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
